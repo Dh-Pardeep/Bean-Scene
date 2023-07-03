@@ -1,0 +1,430 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bean Scene Coffee</title>
+  <link rel="shortcut icon" href="./assets/img/png/coffee4.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- slick slicer -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- slick slicer -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+   <a id="button" class="pt-2"></a>
+<header class="bg_image bg-cover bg-no-repeat bg-center">
+    <div class="container mx-auto px-[20px] md:px-[40px]">
+      <nav class="py-[20px]">
+        <div class="flex items-center justify-between">
+          <h2 class="ff_clicker font-normal text-[35px] text-white hover:text-[#F9C06A]  not-italic z-10">Bean Scene</h2>
+          <label for="icon" class="nav_line_box">
+            <span class="navline z-10"></span>
+            <span class="navline z-10"></span>
+            <span class="navline z-10"></span>
+          </label>
+          <input type="checkbox" id="icon" hidden>
+          <ul
+            class="flex space-y-[30px] md:space-y-0 md:space-x-[40px] lg:space-x-[60px] ff_playfair font-medium text-white text-[14px] not-italic md_screen">
+            <li><a class="down_line relative" href="#Home">Home</a></li>
+            <li><a class="down_line relative" href="#Menu">Menu</a></li>
+            <li><a class="down_line relative" href="#AboutUs">About Us</a></li>
+            <li><a class="down_line relative" href="#ContactUs">Contact Us</a></li>
+            <li class="md:hidden"><a href="#Sign In">Sign In</a></li>
+            <li class="md:hidden"><a class="bg-[#F9C06A] px-[27px] py-[15px] rounded-[24px] inline-block"
+                href="#SignUp">SignUp</a></li>
+          </ul>
+          <ul
+            class="md:flex items-center space-x-[35px] ff_playfair font-medium text-white text-[14px] not-italic d_none_sign_btn">
+            <li><a class="down_line relative" href="#Sign In">Sign In</a></li>
+            <li><a class="bg-[#F9C06A] px-[27px] py-[15px] rounded-[24px] inline-block" href="#SignUp">SignUp</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id="Home">
+        <p
+          class="ff_playfair font-medium text-[15px] sm:text-[17px] md:text-[19px] lg:text-[22px] text-white not-italic pt-[30px] sm:pt-[40px] md:pt-[60px]: lg:pt-[80px] xl:pt-[100px]">
+          We’ve got your morning covered
+          with</p>
+        <h1
+          class="text-white text-[120px] sm:text-[140px] md:text-[160px] lg:text-[180px] xl:text-[220px]  not-italic font-normal ff_clicker">
+          Coffee</h1>
+        <p
+          class="ff_playfair font-normal text-[13px] sm:text-[15px] md:text-[17px] lg:text-[20px] text-white not-italic max-w-[527px] pb-[20px]">
+          It is best to start
+          your day with a cup of coffee. Discover the
+          best flavours coffee you will ever have. We provide the best
+          for our customers.</p>
+        <a class="ff_playfair font-bold text-[12px] sm:text-[14px] md:text-[16px] bg-[#F9C06A] px-[22px] py-[12px] md:px-[24px] md:py-[14px] lg:px-[27px] lg:py-[15px] rounded-[24px] inline-block mb-[50px] sm:mb-[65px]  md:mb-[80px] lg:mb-[100px]"
+          href="#OrderNow">Order Now</a>
+      </section>
+    </div>
+  </header>
+  <main>
+    <section class="relative">
+      <img class="absolute w-[270px] md:w-[300px] hidden sm:block bottom-0 lg:bottom-[-60px]"   src="./assets/img/png/discover.png" alt="back side img">
+      <div class="container mx-auto px-[20px] md:px-[40px] " id="AboutUs">
+        <div class="flex items-center justify-between flex-col lg:flex-row ">
+          <div class="order-1 lg:order-first">
+            <h2
+              class="text-[32px] text-center lg:text-start sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-[#603809] ff_playfair font-bold not-italic pt-[20px] lg:pt-[120px] xl:pt-[150px] ">
+              Discover the best coffee
+            </h2>
+            <p
+              class="ff_playfair text-center lg:text-start font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic max-w-[585px]  leading-[28px] lg:leading-[34px] py-[20px] md:py-[25px] lg:py-[29px]">
+              Bean Scene is a coffee shop that provides you with quality coffee that helps boost your productivity and
+              helps build your mood. Having a cup of coffee is good, but having a cup of real coffee is greater. There
+              is no doubt that you will enjoy this coffee more than others you have ever tasted.</p>
+            <div class="text-center lg:text-start">
+              <a class="ff_playfair font-bold text-base bg-[#F9C06A] px-[24px] py-[13px] rounded-[24px] inline-block mb-[45px] sm:mb-[55px] md:mb-[65px] lg:mb-[75px]"
+                href="#LearnMore">Learn More</a>
+            </div>
+          </div>
+          <div class="lg:pt-[40px] xl:pt-[85px]">
+            <img class="w-full" src="./assets/img/png/discovery_image3..png" alt="Discover the best coffee">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mx-auto px-[20px] md:px-[40px]" id="Menu">
+        <p
+          class="text-[32px] text-center sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-[#603809] ff_playfair font-bold not-italic  lg:pt-[65px] xl:pt-[75px]">
+          Enjoy a new blend
+          of coffee style</p>
+        <p
+          class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic pt-[10px] leading-[28px] lg:leading-[34px] text-center pb-[32px]">
+          Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+        <div class="flex flex-row flex-wrap pb-[53px] justify-center">
+          <div class=" xl:w-[25%] sm:px-[10px] md:w-[40%] w-[100%]  lg:w-[33.33%]">
+            <div class="border-solid relative border-2 border-[#F9C06A6B] bg-[#FFF9F1] hover:bg-[#FFEED8]">
+              <img class="w-full" src="./assets/img/png/coffee1.png" alt="cofee_image">
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Cappuccino
+              </h2>
+              <h3 class="text-center text-base ff_playfair font-normal not-italic text-[#1E1E1E] py-[2px]">Coffee 50% |
+                Milk 50%</h3>
+              <h4 class="text-center ff_playfair font-bold not-italic text-lg text-[#603809] pb-[42px]">$8.50</h4>
+              <a class="ff_playfair absolute bottom-[-122px] left-[50%] translate-x-[-50%] font-bold text-base bg-[#F9C06A] px-[18px] lg:px-[27px] py-[15px] rounded-[24px] inline-block mb-[95px]"
+                href="">Order Now</a>
+            </div>
+          </div>
+          <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[50px] md:mt-0 w-[100%]  lg:w-[33.33%]">
+            <div class="border-solid relative border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8]">
+              <img class="w-full" src="./assets/img/png/coffee2.png" alt="cofee_image">
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Chai Latte
+              </h2>
+              <h3 class="text-center text-base ff_playfair font-normal not-italic text-[#1E1E1E] py-[2px]">Coffee 50% |
+                Milk 50%</h3>
+              <h4 class="text-center ff_playfair font-bold not-italic text-lg text-[#603809] pb-[42px]">$8.50</h4>
+              <a class="ff_playfair absolute bottom-[-122px] left-[50%] translate-x-[-50%] font-bold text-base bg-[#F9C06A] px-[18px] lg:px-[27px] py-[15px] rounded-[24px] inline-block mb-[95px]"
+                href="">Order Now</a>
+            </div>
+          </div>
+          <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[50px] lg:mt-0 w-[100%] lg:w-[33.33%]">
+            <div class="border-solid relative border-2 border-[#F9C06A6B]   bg-[#FFF9F1] hover:bg-[#FFEED8]">
+              <img class="w-full" src="./assets/img/png/coffee3.png" alt="cofee_image">
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Macchiato
+              </h2>
+              <h3 class="text-center text-base ff_playfair font-normal not-italic text-[#1E1E1E] py-[2px]">Coffee 50% |
+                Milk 50%</h3>
+              <h4 class="text-center ff_playfair font-bold not-italic text-lg text-[#603809] pb-[42px]">$8.50</h4>
+              <a class="ff_playfair absolute bottom-[-122px] left-[50%] translate-x-[-50%] font-bold text-base bg-[#F9C06A] px-[18px] lg:px-[27px] py-[15px] rounded-[24px] inline-block mb-[95px]"
+                href="#">Order Now</a>
+            </div>
+          </div>
+          <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[50px] xl:mt-0 w-[100%]  lg:w-[33.33%]">
+            <div class="border-solid relative border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8]">
+              <img class="w-full" src="./assets/img/png/coffee4.png" alt="cofee_image">
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Macchiato
+              </h2>
+              <h3 class="text-center text-base ff_playfair font-normal not-italic text-[#1E1E1E] py-[2px]">Coffee 50% |
+                Milk 50%</h3>
+              <h4 class="text-center ff_playfair font-bold not-italic text-lg text-[#603809] pb-[42px]">$8.50</h4>
+              <a class="ff_playfair absolute bottom-[-122px] left-[50%] translate-x-[-50%] font-bold text-base bg-[#F9C06A] px-[18px] lg:px-[27px] py-[15px] rounded-[24px] inline-block mb-[95px]"
+                href="#">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="relative">
+      <img class="absolute w-[280px] lg:w-[350px] right-0 top-0 hidden md:block -z-10 md:top-[-110px] lg:top-[-140px] xl:top-[-100px]" src="./assets/img/png/diffenrt.png" alt="side">
+      <div class="container mx-auto px-[20px] md:px-[40px] ">
+        
+        <p
+          class="text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-[#603809] ff_playfair font-bold not-italic pt-[20px] md:pt-[40px] lg:pt-[60px] xl:pt-[80px] text-center">
+          Why are we
+          different?</p>
+        <p
+          class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic  pt-[10px] leading-[34px] text-center pb-[30px] ">
+          We don’t just make your coffee, we make your day!</p>
+        <div class="flex flex-row flex-wrap justify-center">
+          <div class=" xl:w-[25%] sm:px-[10px] md:w-[40%] w-[100%]  lg:w-[33.33%]">
+            <div class="border-solid border-2 border-[#F9C06A6B] bg-[#FFF9F1] hover:bg-[#FFEED8]">
+              <img class="mx-auto pt-[36px] pb-[25px]" src="./assets/img/png/coffee-beans1.png" alt="cofee_image">
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Supreme
+                Beans
+              </h2>
+              <p
+                class="ff_playfair font-normal text-xl text-[#707070] ot-italic pt-[10px] leading-[34px] text-center pb-[32px] max-w-[176px] mx-auto">
+                Beans that provides
+                great taste</p>
+            </div>
+          </div>
+          <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[30px] md:mt-0 w-[100%]  lg:w-[33.33%]">
+            <div class="border-solid border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8]">
+              <img class="mx-auto pt-[36px] pb-[25px]" src="./assets/img/png/coffee-beans2.png" alt="cofee_image">
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">High Quality
+                <p
+                  class="ff_playfair font-normal text-xl text-[#707070] ot-italic pt-[10px] leading-[34px] text-center pb-[32px] max-w-[134px] mx-auto">
+                  We provide the
+                  highest quality</p>
+            </div>
+          </div>
+          <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[30px] lg:mt-0 w-[100%] lg:w-[33.33%]">
+            <div class="border-solid border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8]">
+              <img class="mx-auto pt-[36px] pb-[25px]" src="./assets/img/png/coffee-cup.png" alt="cofee_image">
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">
+                Extraordinary
+              </h2>
+              <p
+                class="ff_playfair font-normal text-xl text-[#707070] ot-italic pt-[10px] leading-[34px] text-center pb-[32px] max-w-[177px] mx-auto">
+                Coffee like you have
+                never tasted</p>
+            </div>
+          </div>
+          <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[30px] xl:mt-0 w-[100%]  lg:w-[33.33%]">
+            <div class="border-solid border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8]">
+              <img class="mx-auto pt-[36px] pb-[25px]" src="./assets/img/png/best-price.png" alt="cofee_image">
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Affordable
+                Price
+              </h2>
+              <p
+                class="ff_playfair font-normal text-xl text-[#707070] ot-italic pt-[10px] leading-[34px] text-center pb-[32px] max-w-[192px] mx-auto">
+                Our Coffee prices are
+                easy to afford</p>
+            </div>
+          </div>
+        </div>
+        <p
+          class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic text-center pt-[32px]">
+          Great ideas start with great coffee, Lets help you achieve that</p>
+        <h2
+          class="text-[#603809] text-center  text-[24px] sm:text-[28px] md:text-[32px] lg:text-[38px] ff_playfair font-bold pt-[15px]">
+          Get started today.</h2>
+        <div class="text-center pt-[24px] lg:pt-[38px]">
+          <a class="ff_playfair font-bold text-base bg-[#F9C06A] px-[41px] py-[13px] rounded-[24px] inline-block mb-[50px] sm:mb-[75px] lg:mb-[95px] "
+            href="#LearnMore">Join Us</a>
+        </div>
+      </div>
+    </section>
+ <section class="bg_image_2 bg-cover bg-no-repeat bg-center">
+      <div class="container mx-auto px-[20px] md:px-[40px]">
+        <div class="flex flex-col lg:flex-row items-center  justify-between">
+          <div>
+            <p class="ff_playfair font-bold text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-white not-italic  max-w-[575px] text-center lg:text-start pt-[40px] lg-pt[120px] xl:pt-[135px]">Get a chance to
+              have an
+              Amazing morning</p>
+            <p class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-white not-italic max-w-[409px] py-[22px] text-center lg:text-start">We are giving you
+              are one time opportunity to
+              experience a better life with coffee.</p>
+            <div class="text-center lg:text-start">
+              <a class="ff_playfair font-bold text-base bg-[#F9C06A] px-[22px] py-[12px] md:px-[24px] md:py-[14px] lg:px-[27px] lg:py-[15px] rounded-[24px] inline-block mb-[10px] lg-mb[120px] xl:mb-[135px]"
+              href="#OrderNow">Order Now</a>
+            </div>
+          </div>
+          <div class="my-[25px] lg:my-0 xl:me-[50px]">
+            <img src="./assets/img/png/cup.png" alt="coffee cup">
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!-- //////////not//////////// -->
+<section class="relative">
+  <img class="absolute right-0 top-6 hidden md:block" src="./assets/img/png/feedback.png" alt="side">
+      <div class="container mx-auto px-4 ">
+        <p class="text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-[#603809] ff_playfair font-bold not-italic pt-[82px] text-center ">Our coffee
+          perfection feedback</p>
+        <p
+          class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic pt-[10px] leading-[34px] text-center">
+          Our customers has amazing things to say about us</p>
+          <div class=" w-100% lg:w-[75%] mx-auto pb-[80px]">
+            <div class="slick-slider flex">
+              <div class="border border-[#FCE1B8] px-[20px] pt-[40px] md:pt-0  mx-auto flex bg-[#FFF9F1] relative my-[50px]">
+                <svg class="mt-[54px] ms-[30px] hidden md:block" width="85" height="62" viewBox="0 0 85 62" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21.14 61.44C17.62 61.44 14.54 60.78 11.9 59.46C9.26 57.9933 7.13333 56.0867 5.52 53.74C4.05333 51.3933 2.88 48.6067 2 45.38C1.12 42.1533 0.680001 38.78 0.680001 35.26C0.680001 28.0733 2.51333 21.3267 6.18 15.02C9.99333 8.71333 15.86 3.72666 23.78 0.0599873L25.76 4.01999C21.6533 5.92666 17.9867 8.71333 14.76 12.38C11.68 15.9 9.84667 19.64 9.26 23.6C8.38 26.68 8.30667 29.6867 9.04 32.62C12.2667 29.1 16.5933 27.34 22.02 27.34C27.0067 27.34 31.1133 28.88 34.34 31.96C37.5667 34.8933 39.18 39 39.18 44.28C39.18 49.4133 37.4933 53.5933 34.12 56.82C30.7467 59.9 26.42 61.44 21.14 61.44ZM66.46 61.44C62.94 61.44 59.86 60.78 57.22 59.46C54.58 57.9933 52.4533 56.0867 50.84 53.74C49.3733 51.3933 48.2 48.6067 47.32 45.38C46.44 42.1533 46 38.78 46 35.26C46 28.0733 47.8333 21.3267 51.5 15.02C55.3133 8.71333 61.18 3.72666 69.1 0.0599873L71.08 4.01999C66.9733 5.92666 63.3067 8.71333 60.08 12.38C57 15.9 55.1667 19.64 54.58 23.6C53.7 26.68 53.6267 29.6867 54.36 32.62C57.5867 29.1 61.9133 27.34 67.34 27.34C72.3267 27.34 76.4333 28.88 79.66 31.96C82.8867 34.8933 84.5 39 84.5 44.28C84.5 49.4133 82.8133 53.5933 79.44 56.82C76.0667 59.9 71.74 61.44 66.46 61.44Z"
+                  fill="#603809" />
+              </svg>
+              <p class="text-center max-w-[780px] mx-auto text-[15px] sm:text-[17px] md:text-[20px] ff_playfair">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                It was popularised in the 1960s with the release of Letraset..... </p>
+              <h2 class="ff_playfair text-[32px] text-[#603809] text-center font-bold mt-[28px]">Jonny Thomas</h2>
+              <h3 class="ff_playfair text-center pt-[4px] text-[#707070] font-notrmal pb-[100px]">Project Manager</h3>
+              <img class="absolute bottom-[-70px] left-[50%] translate-x-[-50%]" src="./assets/img/png/photo.png"
+                alt="Jonny Thomas">
+                  
+
+              </div>
+              <div class="border border-[#FCE1B8] px-[20px] pt-[40px] md:pt-0  mx-auto flex bg-[#FFF9F1] relative my-[50px]">
+                <svg class="mt-[54px] ms-[30px] hidden md:block" width="85" height="62" viewBox="0 0 85 62" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21.14 61.44C17.62 61.44 14.54 60.78 11.9 59.46C9.26 57.9933 7.13333 56.0867 5.52 53.74C4.05333 51.3933 2.88 48.6067 2 45.38C1.12 42.1533 0.680001 38.78 0.680001 35.26C0.680001 28.0733 2.51333 21.3267 6.18 15.02C9.99333 8.71333 15.86 3.72666 23.78 0.0599873L25.76 4.01999C21.6533 5.92666 17.9867 8.71333 14.76 12.38C11.68 15.9 9.84667 19.64 9.26 23.6C8.38 26.68 8.30667 29.6867 9.04 32.62C12.2667 29.1 16.5933 27.34 22.02 27.34C27.0067 27.34 31.1133 28.88 34.34 31.96C37.5667 34.8933 39.18 39 39.18 44.28C39.18 49.4133 37.4933 53.5933 34.12 56.82C30.7467 59.9 26.42 61.44 21.14 61.44ZM66.46 61.44C62.94 61.44 59.86 60.78 57.22 59.46C54.58 57.9933 52.4533 56.0867 50.84 53.74C49.3733 51.3933 48.2 48.6067 47.32 45.38C46.44 42.1533 46 38.78 46 35.26C46 28.0733 47.8333 21.3267 51.5 15.02C55.3133 8.71333 61.18 3.72666 69.1 0.0599873L71.08 4.01999C66.9733 5.92666 63.3067 8.71333 60.08 12.38C57 15.9 55.1667 19.64 54.58 23.6C53.7 26.68 53.6267 29.6867 54.36 32.62C57.5867 29.1 61.9133 27.34 67.34 27.34C72.3267 27.34 76.4333 28.88 79.66 31.96C82.8867 34.8933 84.5 39 84.5 44.28C84.5 49.4133 82.8133 53.5933 79.44 56.82C76.0667 59.9 71.74 61.44 66.46 61.44Z"
+                  fill="#603809" />
+              </svg>
+              <p class="text-center max-w-[780px] mx-auto text-[15px] sm:text-[17px] md:text-[20px] ff_playfair">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                It was popularised in the 1960s with the release of Letraset..... </p>
+              <h2 class="ff_playfair text-[32px] text-[#603809] text-center font-bold mt-[28px]">Pardeep</h2>
+              <h3 class="ff_playfair text-center pt-[4px] text-[#707070] font-notrmal pb-[100px]">Project Manager</h3>
+              <img class="absolute bottom-[-70px] left-[50%] translate-x-[-50%]" src="./assets/img/png/photo.png"
+                alt="Jonny Thomas">
+                  
+
+              </div>
+              <div class="border border-[#FCE1B8] px-[20px] pt-[40px] md:pt-0  mx-auto flex bg-[#FFF9F1] relative my-[50px]">
+                <svg class="mt-[54px] ms-[30px] hidden md:block" width="85" height="62" viewBox="0 0 85 62" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21.14 61.44C17.62 61.44 14.54 60.78 11.9 59.46C9.26 57.9933 7.13333 56.0867 5.52 53.74C4.05333 51.3933 2.88 48.6067 2 45.38C1.12 42.1533 0.680001 38.78 0.680001 35.26C0.680001 28.0733 2.51333 21.3267 6.18 15.02C9.99333 8.71333 15.86 3.72666 23.78 0.0599873L25.76 4.01999C21.6533 5.92666 17.9867 8.71333 14.76 12.38C11.68 15.9 9.84667 19.64 9.26 23.6C8.38 26.68 8.30667 29.6867 9.04 32.62C12.2667 29.1 16.5933 27.34 22.02 27.34C27.0067 27.34 31.1133 28.88 34.34 31.96C37.5667 34.8933 39.18 39 39.18 44.28C39.18 49.4133 37.4933 53.5933 34.12 56.82C30.7467 59.9 26.42 61.44 21.14 61.44ZM66.46 61.44C62.94 61.44 59.86 60.78 57.22 59.46C54.58 57.9933 52.4533 56.0867 50.84 53.74C49.3733 51.3933 48.2 48.6067 47.32 45.38C46.44 42.1533 46 38.78 46 35.26C46 28.0733 47.8333 21.3267 51.5 15.02C55.3133 8.71333 61.18 3.72666 69.1 0.0599873L71.08 4.01999C66.9733 5.92666 63.3067 8.71333 60.08 12.38C57 15.9 55.1667 19.64 54.58 23.6C53.7 26.68 53.6267 29.6867 54.36 32.62C57.5867 29.1 61.9133 27.34 67.34 27.34C72.3267 27.34 76.4333 28.88 79.66 31.96C82.8867 34.8933 84.5 39 84.5 44.28C84.5 49.4133 82.8133 53.5933 79.44 56.82C76.0667 59.9 71.74 61.44 66.46 61.44Z"
+                  fill="#603809" />
+              </svg>
+              <p class="text-center max-w-[780px] mx-auto text-[15px] sm:text-[17px] md:text-[20px]  ">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                It was popularised in the 1960s with the release of Letraset..... </p>
+              <h2 class="ff_playfair text-[32px] text-[#603809] text-center font-bold mt-[28px]">Sandeep</h2>
+              <h3 class="ff_playfair text-center pt-[4px] text-[#707070] font-notrmal pb-[100px]">Project Manager</h3>
+              <img class="absolute bottom-[-70px] left-[50%] translate-x-[-50%]" src="./assets/img/png/photo.png"
+                alt="Jonny Thomas">
+                  
+
+              </div>
+             
+          </div>
+          <div class="flex items-center justify-center space-x-2 mt-5 relative">
+            <img class="l_arrow w-[60px] md:w-[80px] absolute left-[30%]  top-[10px]  md:left-[-40px]  md:top-[-300px]" src="./assets/img/png/arroe1.svg" alt="">
+            <img class="r_arrow w-[60px] md:w-[80px] absolute right-[30%] top-[10px]  md:right-[-40px] md:top-[-300px]" src="./assets/img/png/arrow2.svg" alt="">
+          </div>
+          </div>
+      </div>
+  </section>
+   <section class="bg_image_3 bg-cover bg-no-repeat bg-center">
+      <div class="container mx-auto px-4">
+        <p class="text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-white ff_playfair font-bold not-italic pt-[45px] sm:pt-[60px] lg:pt-[80px] text-center ">Our coffee perfection
+          feedback</p>
+        <p class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-whit5e ot-italic pt-[10px] leading-[34px] text-center  pb-[26px] ">
+          Our customers has amazing things to say about us</p>
+        <div class="flex justify-center lg:flex-row items-center flex-col pb-[45px] sm:pb-[60px] lg:pb-[80px]">
+          <input type="email" placeholder="Enter your mail" class="py-[16px] px-[24px] w-full sm:w-[60%] lg:w-[40%] ff_playfair font-normal leading-[34px] text-[15px] sm:text-[17px] md:text-[20px] rounded-[4px]"  >
+          <div class="text-center">
+            <a class="ff_playfair text-[17px] sm:text-[20px] md:text-[23px] font-bold text-[#603809] bg-[#F9C06A] inline-block md:py-[16px] py-[13px] px-[20px]  md:px-[24px] rounded-[4px] ms-[-5px] mt-[10px] lg:mt-0"   href="#">Subscribe</a>
+          </div>
+          </div>
+        </div>
+      </div>
+       </div>
+    </section>
+  </main>
+<footer class="footer_img bg-cover bg-no-repeat bg-center">
+    <div class="container mx-auto px-[20px] md:px-[40px]">
+      <div class="flex items-start  xl:flex-row flex-col justify-between">
+        <div class="flex flex-col py-[40px] sm:pt-[50px] lg:pt-[80px] xl:pt-[160px] xl:pb-[80px]">
+          <h2 class="ff_clicker font-normal text-[54px] text-white not-italic ">Bean Scene</h2>
+          <p class="ff_playfair font-normal text-sm text-white not-italic max-w-[380px] py-[20px] leading-6">Lorem Ipsum
+            is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+            type specimen book.</p>
+          <div class="flex space-x-[25px]">
+            <a href="https://www.facebook.com/" target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2C6.477 2 2 6.477 2 12C2 16.991 5.657 21.128 10.438 21.879V14.89H7.898V12H10.438V9.797C10.438 7.291 11.93 5.907 14.215 5.907C15.309 5.907 16.453 6.102 16.453 6.102V8.562H15.193C13.95 8.562 13.563 9.333 13.563 10.124V12H16.336L15.893 14.89H13.563V21.879C18.343 21.129 22 16.99 22 12C22 6.477 17.523 2 12 2Z"
+                fill="white" />
+            </svg></a>
+            <a href="https://www.instagram.com/ target=" target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9Z"
+                fill="white" />
+            </svg></a>
+           <a href="https://www.youtube.com/" target="_blank"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M21.543 6.498C22 8.28 22 12 22 12C22 12 22 15.72 21.543 17.502C21.289 18.487 20.546 19.262 19.605 19.524C17.896 20 12 20 12 20C12 20 6.107 20 4.395 19.524C3.45 19.258 2.708 18.484 2.457 17.502C2 15.72 2 12 2 12C2 12 2 8.28 2.457 6.498C2.711 5.513 3.454 4.738 4.395 4.476C6.107 4 12 4 12 4C12 4 17.896 4 19.605 4.476C20.55 4.742 21.292 5.516 21.543 6.498ZM10 15.5L16 12L10 8.5V15.5Z"
+              fill="white" />
+          </svg></a>
+            <a href="https://twitter.com/i/flow/login" target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M22.162 5.65593C21.3986 5.99362 20.589 6.2154 19.76 6.31393C20.6338 5.79136 21.2877 4.96894 21.6 3.99993C20.78 4.48793 19.881 4.82993 18.944 5.01493C18.3146 4.34151 17.4804 3.89489 16.571 3.74451C15.6616 3.59413 14.7279 3.74842 13.9153 4.18338C13.1026 4.61834 12.4564 5.30961 12.0771 6.14972C11.6978 6.98983 11.6068 7.93171 11.818 8.82893C10.1551 8.74558 8.52834 8.31345 7.04329 7.56059C5.55825 6.80773 4.24813 5.75097 3.19801 4.45893C2.8263 5.09738 2.63096 5.82315 2.63201 6.56193C2.63201 8.01193 3.37001 9.29293 4.49201 10.0429C3.82802 10.022 3.17864 9.84271 2.59801 9.51993V9.57193C2.59821 10.5376 2.93238 11.4735 3.54385 12.221C4.15533 12.9684 5.00649 13.4814 5.95301 13.6729C5.33662 13.84 4.69031 13.8646 4.06301 13.7449C4.32987 14.5762 4.85001 15.3031 5.5506 15.824C6.25118 16.3449 7.09714 16.6337 7.97001 16.6499C7.10249 17.3313 6.10918 17.8349 5.04689 18.1321C3.98459 18.4293 2.87413 18.5142 1.77901 18.3819C3.6907 19.6114 5.9161 20.264 8.18901 20.2619C15.882 20.2619 20.089 13.8889 20.089 8.36193C20.089 8.18193 20.084 7.99993 20.076 7.82193C20.8949 7.23009 21.6016 6.49695 22.163 5.65693L22.162 5.65593Z"
+                fill="white" />
+            </svg></a>
+
+          </div>
+        </div>
+        <div class="flex items-start md:flex-row flex-col flex-wrap pb-[40px] sm:pb-[50px] lg:pb-[80px] xl:pt-[160px]">
+         <div class="flex " id="ContactUs">
+          <ul class="space-y-[15px] md:sapce-y-[20px]">
+            <li class="ff_playfair text-white text-[20px] sm:text-[23px] md:text-[26px] mt-[30px] md:mb-[55px] lg:mb-[65px]">About</li>
+            <li><a class="inline-block text-white ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] " href="#">Menu</a></li>
+            <li><a class="inline-block text-white ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] " href="#">Features</a></li>
+            <li><a class="inline-block text-white ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] " href="#">News & Blogs</a></li>
+            <li><a class="inline-block text-white ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] " href="#">Help & Supports</a></li>
+          </ul>
+          <ul class="space-y-[15px] md:sapce-y-[20px] ms-[25px] lg:ms-[60px]">
+            <li class="ff_playfair text-white text-[20px] sm:text-[23px] md:text-[26px] mt-[30px] md:mb-[55px] lg:mb-[65px]">Company</li>
+            <li><a class="inline-block text-white ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] " href="#">How we work</a></li>
+            <li><a class="inline-block text-white ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] " href="#">Terms of service</a></li>
+            <li><a class="inline-block text-white ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] " href="#">Pricing </a></li>
+            <li><a class="inline-block text-white ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] " href="#">FAQ</a></li>
+          </ul>
+         </div>
+          <ul class="space-y-[15px] md:sapce-y-[10px] md:ms-[25px] lg:ms-[60px]">
+            <li class="ff_playfair text-white text-[20px] sm:text-[23px] md:text-[26px] mt-[30px] ">Contact Us</li>
+            <li><a class="inline-block text-white ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px]  max-w-[332px]" href="#">Akshya Nagar
+                1st Block 1st Cross, Rammurthy nagar, Bangalore-560016</a></li>
+            <li><a class="inline-block text-white ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] " href="#">+1 202-918-2132</a></li>
+            <li><a class="inline-block text-white ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] " href="#">beanscene@mail.com</a></li>
+            <li><a class="inline-block text-white ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] " href="#">www.beanscene.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+ <!-- jquery -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+ integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- slick slicer -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- tailwind css -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- js file link -->
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
