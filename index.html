@@ -26,12 +26,17 @@
 </head>
 
 <body>
-  <div class="overflow-hidden">
+  <!-- <div id="box" class="overflow-hidden">
+    <div id="preloader-box">
+        <img class="mx-auto loder-img" src="./assets/img/png/cup.png" alt="preloder" />
+    </div> -->
+  </div>
+  <div class="overflow-hidden" >   
     <a id="button" class="pt-2"></a>
-    <header class="bg_image bg-cover bg-no-repeat bg-center">
-      <div class="container mx-auto px-[20px] md:px-[40px]">
-        <nav class="py-[20px]  " data-aos-duration="2000" data-aos=" fade-down">
-          <div class=" flex items-center justify-between">
+    <section class="bg_image bg-cover bg-no-repeat bg-center">
+      <div class="container  mx-auto px-[20px] md:px-[40px]">
+        <nav class="py-[20px top-0 sticky" id="navbar">
+          <div class=" flex items-center  justify-between">
             <h2
               class="ff_clicker font-normal text-[35px] text-white  hover:text-[#F9C06A] transition-all duration-300 ease-in-out   not-italic z-10 cursor-pointer ">
               Bean Scene
@@ -62,390 +67,392 @@
             </ul>
           </div>
         </nav>
-        <section id="Home" data-aos-duration="2000" data-aos="fade-right ">
-          <p
-            class="ff_playfair font-medium text-[15px] sm:text-[17px] md:text-[19px] lg:text-[22px] text-white not-italic pt-[30px] sm:pt-[40px] md:pt-[60px]: lg:pt-[80px] xl:pt-[100px]">
-            We’ve got your morning covered
-            with</p>
-          <h1
-            class="text-white text-[120px] sm:text-[140px] md:text-[160px] lg:text-[180px] xl:text-[220px]  not-italic font-normal ff_clicker hover:text-[#F9C06A] inline-block transition-all duration-500 ease-in-out ">
-            Coffee</h1>
-          <p
-            class="ff_playfair font-normal text-[13px] sm:text-[15px] md:text-[17px] lg:text-[20px] text-white not-italic max-w-[527px] pb-[20px]">
-            It is best to start
-            your day with a cup of coffee. Discover the
-            best flavours coffee you will ever have. We provide the best
-            for our customers.</p>
-          <a class="ff_playfair font-bold text-[12px] sm:text-[14px] md:text-[16px] bg-[#F9C06A] px-[22px] py-[12px] md:px-[24px] md:py-[14px] lg:px-[27px] lg:py-[15px] rounded-[24px] inline-block mb-[50px] sm:mb-[65px]  md:mb-[80px] lg:mb-[100px] transition-all duration-300 ease-in-out btn_1"
-            href="#OrderNow">Order Now</a>
-        </section>
+        <div id="Home">
+          <div data-aos-duration="2000" data-aos="fade-right ">
+            <p
+              class="ff_playfair font-medium text-[15px] sm:text-[17px] md:text-[19px] lg:text-[22px] text-white not-italic pt-[100px] sm:pt-[110px] md:pt-[130px]: lg:pt-[150px] xl:pt-[170px]">
+              We’ve got your morning covered
+              with</p>
+            <h1
+              class="text-white text-[120px] sm:text-[140px] md:text-[160px] lg:text-[180px] xl:text-[220px]  not-italic font-normal ff_clicker coffee_anm">
+              Coffee</h1>
+            <p
+              class="ff_playfair font-normal text-[13px] sm:text-[15px] md:text-[17px] lg:text-[20px] text-white not-italic max-w-[527px] pb-[20px]">
+              It is best to start
+              your day with a cup of coffee. Discover the
+              best flavours coffee you will ever have. We provide the best
+              for our customers.</p>
+            <a class="ff_playfair font-bold text-[12px] sm:text-[14px] md:text-[16px] bg-[#F9C06A] px-[22px] py-[12px] md:px-[24px] md:py-[14px] lg:px-[27px] lg:py-[15px] rounded-[24px] inline-block mb-[50px] sm:mb-[65px]  md:mb-[80px] lg:mb-[100px] transition-all duration-300 ease-in-out btn_1"
+              href="#OrderNow">Order Now</a>
+          </div>
+        </div>
       </div>
-    </header>
-    <main>
-      <section class="relative">
-        <img class="absolute w-[270px] md:w-[300px] hidden sm:block bottom-0 lg:bottom-[-60px] -z-10"
-          src="./assets/img/png/discover.png" alt="back side img">
-        <div class="container mx-auto px-[20px] md:px-[40px] " id="AboutUs">
-          <div class="flex items-center justify-between flex-col lg:flex-row ">
-            <div class="order-1 lg:order-first " data-aos-duration="2000" data-aos="fade-right">
-              <h2
-                class="text-center lg:text-start text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-[#603809] ff_playfair font-bold not-italic pt-[20px] lg:pt-[120px] xl:pt-[150px] ">
-                Discover the best coffee
+    </section>
+
+    <section class="relative">
+      <img class="absolute w-[270px] md:w-[300px] hidden sm:block bottom-0 lg:bottom-[-60px] -z-10"
+        src="./assets/img/png/discover.png" alt="back side img">
+      <div class="container mx-auto px-[20px] md:px-[40px] " id="AboutUs">
+        <div class="flex items-center justify-between flex-col lg:flex-row ">
+          <div class="order-1 lg:order-first " data-aos-duration="2000" data-aos="fade-right">
+            <h2
+              class="text-center lg:text-start text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-[#603809] ff_playfair font-bold not-italic pt-[20px] lg:pt-[120px] xl:pt-[150px] ">
+              Discover the best coffee
+            </h2>
+            <p
+              class="ff_playfair text-center lg:text-start font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic max-w-[585px]  leading-[28px] lg:leading-[34px] py-[20px] md:py-[25px] lg:py-[29px]">
+              Bean Scene is a coffee shop that provides you with quality coffee that helps boost your productivity and
+              helps build your mood. Having a cup of coffee is good, but having a cup of real coffee is greater. There
+              is no doubt that you will enjoy this coffee more than others you have ever tasted.</p>
+            <div class="text-center lg:text-start">
+              <a class="ff_playfair font-bold text-base bg-[#F9C06A] px-[24px] py-[13px] rounded-[24px] inline-block mb-[45px] sm:mb-[55px] md:mb-[65px] lg:mb-[75px] transition-all duration-300 ease-in-out btn_1"
+                href="#LearnMore">Learn More</a>
+            </div>
+          </div>
+          <div class="lg:pt-[40px] xl:pt-[85px] ">
+            <div class="overflow-hidden card_1">
+              <img class="w-full img_scale transition-all delay-100 duration-300 " data-aos-duration="2000"
+                data-aos="zoom-in" src="./assets/img/png/discovery_image3..png" alt="Discover the best coffee">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mx-auto px-[20px] md:px-[40px]" id="Menu">
+        <p
+          class="text-[32px] text-center sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-[#603809] ff_playfair font-bold not-italic  lg:pt-[65px] xl:pt-[75px]">
+          Enjoy a new blend
+          of coffee style</p>
+        <p
+          class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic pt-[10px] leading-[28px] lg:leading-[34px] text-center pb-[32px]">
+          Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+        <div class="flex flex-row flex-wrap pb-[53px] justify-center">
+          <div class=" xl:w-[25%] sm:px-[10px] md:w-[40%] w-[100%]  lg:w-[33.33%]">
+            <div
+              class="border-solid relative border-2 border-[#F9C06A6B] bg-[#FFF9F1] hover:bg-[#FFEED8] transition-all delay-75 duration-300 card_1 cursor-pointer"
+              data-aos-duration="2000" data-aos="flip-left">
+              <div class="overflow-hidden ">
+                <img class="w-full img_scale transition-all delay-100 duration-300" src="./assets/img/png/coffee1.png"
+                  alt="cofee_image">
+              </div>
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Cappuccino
+              </h2>
+              <h3 class="text-center text-base ff_playfair font-normal not-italic text-[#1E1E1E] py-[2px]">Coffee 50%
+                |
+                Milk 50%</h3>
+              <h4 class="text-center ff_playfair font-bold not-italic text-lg text-[#603809] pb-[42px]">$8.50</h4>
+              <a class="ff_playfair absolute bottom-[-122px] left-[50%] translate-x-[-50%] font-bold text-base bg-[#F9C06A] px-[18px] lg:px-[27px] py-[15px] rounded-[24px] inline-block mb-[95px] transition-all duration-300 ease-in-out btn_1"
+                href="">Order Now</a>
+            </div>
+          </div>
+          <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[50px] md:mt-0 w-[100%]  lg:w-[33.33%]">
+            <div
+              class="border-solid relative border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8] transition-all delay-75 duration-300 card_1 cursor-pointer"
+              data-aos-duration="2000" data-aos="flip-left">
+              <div class="overflow-hidden">
+                <img class="w-full img_scale transition-all delay-100 duration-300" src="./assets/img/png/coffee2.png"
+                  alt="cofee_image">
+              </div>
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Chai Latte
+              </h2>
+              <h3 class="text-center text-base ff_playfair font-normal not-italic text-[#1E1E1E] py-[2px]">Coffee 50%
+                |
+                Milk 50%</h3>
+              <h4 class="text-center ff_playfair font-bold not-italic text-lg text-[#603809] pb-[42px]">$8.50</h4>
+              <a class="ff_playfair absolute bottom-[-122px] left-[50%] translate-x-[-50%] font-bold text-base bg-[#F9C06A] px-[18px] lg:px-[27px] py-[15px] rounded-[24px] inline-block mb-[95px] transition-all duration-300 ease-in-out btn_1"
+                href="">Order Now</a>
+            </div>
+          </div>
+          <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[50px] lg:mt-0 w-[100%] lg:w-[33.33%]">
+            <div
+              class="border-solid relative border-2 border-[#F9C06A6B]   bg-[#FFF9F1] hover:bg-[#FFEED8 transition-all delay-75 duration-300 card_1 cursor-pointer"
+              data-aos-duration="2000" data-aos="flip-left">
+              <div class="overflow-hidden">
+                <img class="w-full img_scale transition-all delay-100 duration-300" src="./assets/img/png/coffee3.png"
+                  alt="cofee_image">
+              </div>
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Macchiato
+              </h2>
+              <h3 class="text-center text-base ff_playfair font-normal not-italic text-[#1E1E1E] py-[2px]">Coffee 50%
+                |
+                Milk 50%</h3>
+              <h4 class="text-center ff_playfair font-bold not-italic text-lg text-[#603809] pb-[42px]">$8.50</h4>
+              <a class="ff_playfair absolute bottom-[-122px] left-[50%] translate-x-[-50%] font-bold text-base bg-[#F9C06A] px-[18px] lg:px-[27px] py-[15px] rounded-[24px] inline-block mb-[95px] transition-all duration-300 ease-in-out btn_1"
+                href="#">Order Now</a>
+            </div>
+          </div>
+          <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[50px] xl:mt-0 w-[100%]  lg:w-[33.33%]">
+            <div
+              class="border-solid relative border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8] transition-all delay-75 duration-300 card_1 cursor-pointer"
+              data-aos-duration="2000" data-aos="flip-left">
+              <div class="overflow-hidden">
+                <img class="w-full img_scale transition-all delay-100 duration-300" src="./assets/img/png/coffee4.png"
+                  alt="cofee_image">
+              </div>
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Macchiato
+              </h2>
+              <h3 class="text-center text-base ff_playfair font-normal not-italic text-[#1E1E1E] py-[2px]">Coffee 50%
+                |
+                Milk 50%</h3>
+              <h4 class="text-center ff_playfair font-bold not-italic text-lg text-[#603809] pb-[42px]">$8.50</h4>
+              <a class="ff_playfair absolute bottom-[-122px] left-[50%] translate-x-[-50%] font-bold text-base bg-[#F9C06A] px-[18px] lg:px-[27px] py-[15px] rounded-[24px] inline-block mb-[95px] transition-all duration-300 ease-in-out btn_1"
+                href="#">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="relative">
+      <img
+        class="absolute w-[280px] lg:w-[350px] right-0 top-0 hidden md:block -z-10 md:top-[-110px] lg:top-[-140px] xl:top-[-100px]"
+        src="./assets/img/png/diffenrt.png" alt="side">
+      <div class="container mx-auto px-[20px] md:px-[40px] ">
+
+        <p
+          class="text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-[#603809] ff_playfair font-bold not-italic pt-[20px] md:pt-[40px] lg:pt-[60px] xl:pt-[80px] text-center">
+          Why are we
+          different?</p>
+        <p
+          class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic  pt-[10px] leading-[34px] text-center pb-[30px] ">
+          We don’t just make your coffee, we make your day!</p>
+        <div class="flex flex-row flex-wrap justify-center">
+          <div class=" xl:w-[25%] sm:px-[10px] md:w-[40%] w-[100%]  lg:w-[33.33%]">
+            <div
+              class="border-solid border-2 border-[#F9C06A6B] bg-[#FFF9F1] hover:bg-[#FFEED8] transition-all delay-75 duration-300 card_1 cursor-pointer"
+              data-aos-duration="2000" data-aos="flip-right">
+              <div class="overflow-hidden">
+                <img class="mx-auto pt-[36px] pb-[25px] img_scale transition-all delay-100 duration-300"
+                  src="./assets/img/png/coffee-beans1.png" alt="cofee_image">
+              </div>
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Supreme
+                Beans
               </h2>
               <p
-                class="ff_playfair text-center lg:text-start font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic max-w-[585px]  leading-[28px] lg:leading-[34px] py-[20px] md:py-[25px] lg:py-[29px]">
-                Bean Scene is a coffee shop that provides you with quality coffee that helps boost your productivity and
-                helps build your mood. Having a cup of coffee is good, but having a cup of real coffee is greater. There
-                is no doubt that you will enjoy this coffee more than others you have ever tasted.</p>
-              <div class="text-center lg:text-start">
-                <a class="ff_playfair font-bold text-base bg-[#F9C06A] px-[24px] py-[13px] rounded-[24px] inline-block mb-[45px] sm:mb-[55px] md:mb-[65px] lg:mb-[75px] transition-all duration-300 ease-in-out btn_1"
-                  href="#LearnMore">Learn More</a>
-              </div>
-            </div>
-            <div class="lg:pt-[40px] xl:pt-[85px] ">
-              <div class="overflow-hidden card_1">
-                <img class="w-full img_scale transition-all delay-100 duration-300 " data-aos-duration="2000"
-                  data-aos="zoom-in" src="./assets/img/png/discovery_image3..png" alt="Discover the best coffee">
-              </div>
+                class="ff_playfair font-normal text-xl text-[#707070] ot-italic pt-[10px] leading-[34px] text-center pb-[32px] max-w-[176px] mx-auto">
+                Beans that provides
+                great taste</p>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container mx-auto px-[20px] md:px-[40px]" id="Menu">
-          <p
-            class="text-[32px] text-center sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-[#603809] ff_playfair font-bold not-italic  lg:pt-[65px] xl:pt-[75px]">
-            Enjoy a new blend
-            of coffee style</p>
-          <p
-            class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic pt-[10px] leading-[28px] lg:leading-[34px] text-center pb-[32px]">
-            Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
-          <div class="flex flex-row flex-wrap pb-[53px] justify-center">
-            <div class=" xl:w-[25%] sm:px-[10px] md:w-[40%] w-[100%]  lg:w-[33.33%]">
-              <div
-                class="border-solid relative border-2 border-[#F9C06A6B] bg-[#FFF9F1] hover:bg-[#FFEED8] transition-all delay-75 duration-300 card_1 cursor-pointer"
-                data-aos-duration="2000" data-aos="flip-left">
-                <div class="overflow-hidden ">
-                  <img class="w-full img_scale transition-all delay-100 duration-300" src="./assets/img/png/coffee1.png"
-                    alt="cofee_image">
-                </div>
-                <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Cappuccino
-                </h2>
-                <h3 class="text-center text-base ff_playfair font-normal not-italic text-[#1E1E1E] py-[2px]">Coffee 50%
-                  |
-                  Milk 50%</h3>
-                <h4 class="text-center ff_playfair font-bold not-italic text-lg text-[#603809] pb-[42px]">$8.50</h4>
-                <a class="ff_playfair absolute bottom-[-122px] left-[50%] translate-x-[-50%] font-bold text-base bg-[#F9C06A] px-[18px] lg:px-[27px] py-[15px] rounded-[24px] inline-block mb-[95px] transition-all duration-300 ease-in-out btn_1"
-                  href="">Order Now</a>
+          <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[30px] md:mt-0 w-[100%]  lg:w-[33.33%]">
+            <div
+              class="border-solid border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8] transition-all delay-75 duration-300 card_1 cursor-pointer"
+              data-aos-duration="2000" data-aos="flip-right">
+              <div class="overflow-hidden">
+                <img class="mx-auto pt-[36px] pb-[25px] img_scale transition-all delay-100 duration-300"
+                  src="./assets/img/png/coffee-beans2.png" alt="cofee_image">
               </div>
-            </div>
-            <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[50px] md:mt-0 w-[100%]  lg:w-[33.33%]">
-              <div
-                class="border-solid relative border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8] transition-all delay-75 duration-300 card_1 cursor-pointer"
-                data-aos-duration="2000" data-aos="flip-left">
-                <div class="overflow-hidden">
-                  <img class="w-full img_scale transition-all delay-100 duration-300" src="./assets/img/png/coffee2.png"
-                    alt="cofee_image">
-                </div>
-                <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Chai Latte
-                </h2>
-                <h3 class="text-center text-base ff_playfair font-normal not-italic text-[#1E1E1E] py-[2px]">Coffee 50%
-                  |
-                  Milk 50%</h3>
-                <h4 class="text-center ff_playfair font-bold not-italic text-lg text-[#603809] pb-[42px]">$8.50</h4>
-                <a class="ff_playfair absolute bottom-[-122px] left-[50%] translate-x-[-50%] font-bold text-base bg-[#F9C06A] px-[18px] lg:px-[27px] py-[15px] rounded-[24px] inline-block mb-[95px] transition-all duration-300 ease-in-out btn_1"
-                  href="">Order Now</a>
-              </div>
-            </div>
-            <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[50px] lg:mt-0 w-[100%] lg:w-[33.33%]">
-              <div
-                class="border-solid relative border-2 border-[#F9C06A6B]   bg-[#FFF9F1] hover:bg-[#FFEED8 transition-all delay-75 duration-300 card_1 cursor-pointer"
-                data-aos-duration="2000" data-aos="flip-left">
-                <div class="overflow-hidden">
-                  <img class="w-full img_scale transition-all delay-100 duration-300" src="./assets/img/png/coffee3.png"
-                    alt="cofee_image">
-                </div>
-                <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Macchiato
-                </h2>
-                <h3 class="text-center text-base ff_playfair font-normal not-italic text-[#1E1E1E] py-[2px]">Coffee 50%
-                  |
-                  Milk 50%</h3>
-                <h4 class="text-center ff_playfair font-bold not-italic text-lg text-[#603809] pb-[42px]">$8.50</h4>
-                <a class="ff_playfair absolute bottom-[-122px] left-[50%] translate-x-[-50%] font-bold text-base bg-[#F9C06A] px-[18px] lg:px-[27px] py-[15px] rounded-[24px] inline-block mb-[95px] transition-all duration-300 ease-in-out btn_1"
-                  href="#">Order Now</a>
-              </div>
-            </div>
-            <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[50px] xl:mt-0 w-[100%]  lg:w-[33.33%]">
-              <div
-                class="border-solid relative border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8] transition-all delay-75 duration-300 card_1 cursor-pointer"
-                data-aos-duration="2000" data-aos="flip-left">
-                <div class="overflow-hidden">
-                  <img class="w-full img_scale transition-all delay-100 duration-300" src="./assets/img/png/coffee4.png"
-                    alt="cofee_image">
-                </div>
-                <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Macchiato
-                </h2>
-                <h3 class="text-center text-base ff_playfair font-normal not-italic text-[#1E1E1E] py-[2px]">Coffee 50%
-                  |
-                  Milk 50%</h3>
-                <h4 class="text-center ff_playfair font-bold not-italic text-lg text-[#603809] pb-[42px]">$8.50</h4>
-                <a class="ff_playfair absolute bottom-[-122px] left-[50%] translate-x-[-50%] font-bold text-base bg-[#F9C06A] px-[18px] lg:px-[27px] py-[15px] rounded-[24px] inline-block mb-[95px] transition-all duration-300 ease-in-out btn_1"
-                  href="#">Order Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="relative">
-        <img
-          class="absolute w-[280px] lg:w-[350px] right-0 top-0 hidden md:block -z-10 md:top-[-110px] lg:top-[-140px] xl:top-[-100px]"
-          src="./assets/img/png/diffenrt.png" alt="side">
-        <div class="container mx-auto px-[20px] md:px-[40px] ">
-
-          <p
-            class="text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-[#603809] ff_playfair font-bold not-italic pt-[20px] md:pt-[40px] lg:pt-[60px] xl:pt-[80px] text-center">
-            Why are we
-            different?</p>
-          <p
-            class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic  pt-[10px] leading-[34px] text-center pb-[30px] ">
-            We don’t just make your coffee, we make your day!</p>
-          <div class="flex flex-row flex-wrap justify-center">
-            <div class=" xl:w-[25%] sm:px-[10px] md:w-[40%] w-[100%]  lg:w-[33.33%]">
-              <div
-                class="border-solid border-2 border-[#F9C06A6B] bg-[#FFF9F1] hover:bg-[#FFEED8] transition-all delay-75 duration-300 card_1 cursor-pointer"
-                data-aos-duration="2000" data-aos="flip-right">
-                <div class="overflow-hidden">
-                  <img class="mx-auto pt-[36px] pb-[25px] img_scale transition-all delay-100 duration-300"
-                    src="./assets/img/png/coffee-beans1.png" alt="cofee_image">
-                </div>
-                <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Supreme
-                  Beans
-                </h2>
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">High
+                Quality
                 <p
-                  class="ff_playfair font-normal text-xl text-[#707070] ot-italic pt-[10px] leading-[34px] text-center pb-[32px] max-w-[176px] mx-auto">
-                  Beans that provides
-                  great taste</p>
-              </div>
-            </div>
-            <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[30px] md:mt-0 w-[100%]  lg:w-[33.33%]">
-              <div
-                class="border-solid border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8] transition-all delay-75 duration-300 card_1 cursor-pointer"
-                data-aos-duration="2000" data-aos="flip-right">
-                <div class="overflow-hidden">
-                  <img class="mx-auto pt-[36px] pb-[25px] img_scale transition-all delay-100 duration-300"
-                    src="./assets/img/png/coffee-beans2.png" alt="cofee_image">
-                </div>
-                <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">High
-                  Quality
-                  <p
-                    class="ff_playfair font-normal text-xl text-[#707070] ot-italic pt-[10px] leading-[34px] text-center pb-[32px] max-w-[134px] mx-auto">
-                    We provide the
-                    highest quality</p>
-              </div>
-            </div>
-            <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[30px] lg:mt-0 w-[100%] lg:w-[33.33%]">
-              <div
-                class="border-solid border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8] transition-all delay-75 duration-300 card_1 cursor-pointer"
-                data-aos-duration="2000" data-aos="flip-right">
-                <div class="overflow-hidden">
-                  <img class="mx-auto pt-[36px] pb-[25px] img_scale transition-all delay-100 duration-300"
-                    src="./assets/img/png/coffee-cup.png" alt="cofee_image">
-                </div>
-                <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">
-                  Extraordinary
-                </h2>
-                <p
-                  class="ff_playfair font-normal text-xl text-[#707070] ot-italic pt-[10px] leading-[34px] text-center pb-[32px] max-w-[177px] mx-auto">
-                  Coffee like you have
-                  never tasted</p>
-              </div>
-            </div>
-            <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[30px] xl:mt-0 w-[100%]  lg:w-[33.33%]">
-              <div
-                class="border-solid border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8] transition-all delay-75 duration-300 card_1 cursor-pointer"
-                data-aos-duration="2000" data-aos="flip-right">
-                <div class="overflow-hidden">
-                  <img class="mx-auto pt-[36px] pb-[25px] img_scale transition-all delay-100 duration-300"
-                    src="./assets/img/png/best-price.png" alt="cofee_image">
-                </div>
-                <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Affordable
-                  Price
-                </h2>
-                <p
-                  class="ff_playfair font-normal text-xl text-[#707070] ot-italic pt-[10px] leading-[34px] text-center pb-[32px] max-w-[192px] mx-auto">
-                  Our Coffee prices are
-                  easy to afford</p>
-              </div>
+                  class="ff_playfair font-normal text-xl text-[#707070] ot-italic pt-[10px] leading-[34px] text-center pb-[32px] max-w-[134px] mx-auto">
+                  We provide the
+                  highest quality</p>
             </div>
           </div>
-          <p
-            class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic text-center pt-[32px]">
-            Great ideas start with great coffee, Lets help you achieve that</p>
-          <h2
-            class="text-[#603809] text-center  text-[24px] sm:text-[28px] md:text-[32px] lg:text-[38px] ff_playfair font-bold pt-[15px]">
-            Get started today.</h2>
-          <div class="text-center pt-[24px] lg:pt-[38px]">
-            <a class="ff_playfair font-bold text-base bg-[#F9C06A] px-[41px] py-[13px] rounded-[24px] inline-block mb-[50px] sm:mb-[75px] lg:mb-[95px] transition-all duration-300 ease-in-out btn_1"
-              href="#LearnMore">Join Us</a>
-          </div>
-        </div>
-      </section>
-      <section class="bg_image_2 bg-cover bg-no-repeat bg-center">
-        <div class="container mx-auto px-[20px] md:px-[40px]">
-          <div class="flex flex-col lg:flex-row items-center  justify-between">
-            <div data-aos-duration="2000" data-aos="fade-right">
+          <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[30px] lg:mt-0 w-[100%] lg:w-[33.33%]">
+            <div
+              class="border-solid border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8] transition-all delay-75 duration-300 card_1 cursor-pointer"
+              data-aos-duration="2000" data-aos="flip-right">
+              <div class="overflow-hidden">
+                <img class="mx-auto pt-[36px] pb-[25px] img_scale transition-all delay-100 duration-300"
+                  src="./assets/img/png/coffee-cup.png" alt="cofee_image">
+              </div>
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">
+                Extraordinary
+              </h2>
               <p
-                class="ff_playfair font-bold text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-white not-italic  max-w-[575px] text-center lg:text-start pt-[40px] lg-pt[120px] xl:pt-[135px]">
-                Get a chance to
-                have an
-                Amazing morning</p>
+                class="ff_playfair font-normal text-xl text-[#707070] ot-italic pt-[10px] leading-[34px] text-center pb-[32px] max-w-[177px] mx-auto">
+                Coffee like you have
+                never tasted</p>
+            </div>
+          </div>
+          <div class="xl:w-[25%] sm:px-[10px] md:w-[40%] mt-[30px] xl:mt-0 w-[100%]  lg:w-[33.33%]">
+            <div
+              class="border-solid border-2 border-[#F9C06A6B]  bg-[#FFF9F1] hover:bg-[#FFEED8] transition-all delay-75 duration-300 card_1 cursor-pointer"
+              data-aos-duration="2000" data-aos="flip-right">
+              <div class="overflow-hidden">
+                <img class="mx-auto pt-[36px] pb-[25px] img_scale transition-all delay-100 duration-300"
+                  src="./assets/img/png/best-price.png" alt="cofee_image">
+              </div>
+              <h2 class="text-center ff_playfair font-bold text-[22px] not-italic text-[#603809] pt-[10px]">Affordable
+                Price
+              </h2>
               <p
-                class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-white not-italic max-w-[409px] py-[22px] text-center lg:text-start">
-                We are giving you
-                are one time opportunity to
-                experience a better life with coffee.</p>
-              <div class="text-center lg:text-start">
-                <a class="ff_playfair font-bold text-base bg-[#F9C06A] px-[22px] py-[12px] md:px-[24px] md:py-[14px] lg:px-[27px] lg:py-[15px] rounded-[24px] inline-block mb-[10px] lg-mb[120px] xl:mb-[135px] transition-all duration-300 ease-in-out btn_1"
-                  href="#OrderNow">Order Now</a>
-              </div>
-            </div>
-            <div class="my-[25px] lg:my-0 xl:me-[50px] " data-aos-duration="2000" data-aos="fade-left">
-              <img src="./assets/img/png/cup.png" alt="coffee cup">
+                class="ff_playfair font-normal text-xl text-[#707070] ot-italic pt-[10px] leading-[34px] text-center pb-[32px] max-w-[192px] mx-auto">
+                Our Coffee prices are
+                easy to afford</p>
             </div>
           </div>
         </div>
-      </section>
+        <p
+          class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic text-center pt-[32px]">
+          Great ideas start with great coffee, Lets help you achieve that</p>
+        <h2
+          class="text-[#603809] text-center  text-[24px] sm:text-[28px] md:text-[32px] lg:text-[38px] ff_playfair font-bold pt-[15px]">
+          Get started today.</h2>
+        <div class="text-center pt-[24px] lg:pt-[38px]">
+          <a class="ff_playfair font-bold text-base bg-[#F9C06A] px-[41px] py-[13px] rounded-[24px] inline-block mb-[50px] sm:mb-[75px] lg:mb-[95px] transition-all duration-300 ease-in-out btn_1"
+            href="#LearnMore">Join Us</a>
+        </div>
+      </div>
+    </section>
+    <section class="bg_image_2 bg-cover bg-no-repeat bg-center">
+      <div class="container mx-auto px-[20px] md:px-[40px]">
+        <div class="flex flex-col lg:flex-row items-center  justify-between">
+          <div data-aos-duration="2000" data-aos="fade-right">
+            <p
+              class="ff_playfair font-bold text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-white not-italic  max-w-[575px] text-center lg:text-start pt-[40px] lg-pt[120px] xl:pt-[135px]">
+              Get a chance to
+              have an
+              Amazing morning</p>
+            <p
+              class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-white not-italic max-w-[409px] py-[22px] text-center lg:text-start">
+              We are giving you
+              are one time opportunity to
+              experience a better life with coffee.</p>
+            <div class="text-center lg:text-start">
+              <a class="ff_playfair font-bold text-base bg-[#F9C06A] px-[22px] py-[12px] md:px-[24px] md:py-[14px] lg:px-[27px] lg:py-[15px] rounded-[24px] inline-block mb-[10px] lg-mb[120px] xl:mb-[135px] transition-all duration-300 ease-in-out btn_1"
+                href="#OrderNow">Order Now</a>
+            </div>
+          </div>
+          <div class="my-[25px] lg:my-0 xl:me-[50px] " data-aos-duration="2000" data-aos="fade-left">
+            <img src="./assets/img/png/cup.png" alt="coffee cup">
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <!-- /////////slider//////////// -->
-      <section class="relative">
-        <img class="absolute right-0 top-[150px] xl:top-[110px] z-20  hidden sm:block w-[30%]"
-          src="./assets/img/png/feedback.png" alt="side">
-        <img
-          class="absolute bottom-[130px] md:bottom-[100px] lg:bottom-[80px] xl:bottom-[50px] z-10 hidden sm:block w-[30%]"
-          src="./assets/img/png/cup_top.png" alt="leftside">
-        <div class="container mx-auto px-4 ">
-          <p
-            class="text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-[#603809] ff_playfair font-bold not-italic pt-[82px] text-center ">
-            Our coffee
-            perfection feedback</p>
-          <p
-            class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic pt-[10px] leading-[34px] text-center">
-            Our customers has amazing things to say about us</p>
-          <div class=" w-100% lg:w-[75%] mx-auto pb-[80px]">
-            <div class="slick-slider flex  ">
-              <div
-                class="border border-[#FCE1B8] px-[20px] pt-[40px] md:pt-0  mx-auto flex bg-[#FFF9F1] relative my-[50px] cursor-pointer"
-                data-aos-duration="2000" data-aos="zoom-in">
-                <svg class="mt-[54px] ms-[30px] hidden md:block" width="85" height="62" viewBox="0 0 85 62" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M21.14 61.44C17.62 61.44 14.54 60.78 11.9 59.46C9.26 57.9933 7.13333 56.0867 5.52 53.74C4.05333 51.3933 2.88 48.6067 2 45.38C1.12 42.1533 0.680001 38.78 0.680001 35.26C0.680001 28.0733 2.51333 21.3267 6.18 15.02C9.99333 8.71333 15.86 3.72666 23.78 0.0599873L25.76 4.01999C21.6533 5.92666 17.9867 8.71333 14.76 12.38C11.68 15.9 9.84667 19.64 9.26 23.6C8.38 26.68 8.30667 29.6867 9.04 32.62C12.2667 29.1 16.5933 27.34 22.02 27.34C27.0067 27.34 31.1133 28.88 34.34 31.96C37.5667 34.8933 39.18 39 39.18 44.28C39.18 49.4133 37.4933 53.5933 34.12 56.82C30.7467 59.9 26.42 61.44 21.14 61.44ZM66.46 61.44C62.94 61.44 59.86 60.78 57.22 59.46C54.58 57.9933 52.4533 56.0867 50.84 53.74C49.3733 51.3933 48.2 48.6067 47.32 45.38C46.44 42.1533 46 38.78 46 35.26C46 28.0733 47.8333 21.3267 51.5 15.02C55.3133 8.71333 61.18 3.72666 69.1 0.0599873L71.08 4.01999C66.9733 5.92666 63.3067 8.71333 60.08 12.38C57 15.9 55.1667 19.64 54.58 23.6C53.7 26.68 53.6267 29.6867 54.36 32.62C57.5867 29.1 61.9133 27.34 67.34 27.34C72.3267 27.34 76.4333 28.88 79.66 31.96C82.8867 34.8933 84.5 39 84.5 44.28C84.5 49.4133 82.8133 53.5933 79.44 56.82C76.0667 59.9 71.74 61.44 66.46 61.44Z"
-                    fill="#603809" />
-                </svg>
-                <p class="text-center max-w-[780px] mx-auto text-[15px] sm:text-[17px] md:text-[20px] ff_playfair">Lorem
-                  Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  when
-                  an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                  survived
-                  not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                  unchanged.
-                  It was popularised in the 1960s with the release of Letraset..... </p>
-                <h2 class="ff_playfair text-[32px] text-[#603809] text-center font-bold mt-[28px]">Jonny Thomas</h2>
-                <h3 class="ff_playfair text-center pt-[4px] text-[#707070] font-notrmal pb-[100px]">Project Manager</h3>
-                <img class="absolute bottom-[-70px] left-[50%] translate-x-[-50%]" src="./assets/img/png/photo.png"
-                  alt="Jonny Thomas">
+    <!-- /////////slider//////////// -->
+    <section class="relative">
+      <img class="absolute right-0 top-[150px] xl:top-[110px] z-20  hidden sm:block w-[30%]"
+        src="./assets/img/png/feedback.png" alt="side">
+      <img
+        class="absolute bottom-[130px] md:bottom-[100px] lg:bottom-[80px] xl:bottom-[50px] z-10 hidden sm:block w-[30%]"
+        src="./assets/img/png/cup_top.png" alt="leftside">
+      <div class="container mx-auto px-4 ">
+        <p
+          class="text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-[#603809] ff_playfair font-bold not-italic pt-[82px] text-center ">
+          Our coffee
+          perfection feedback</p>
+        <p
+          class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-[#707070] ot-italic pt-[10px] leading-[34px] text-center">
+          Our customers has amazing things to say about us</p>
+        <div class=" w-100% lg:w-[75%] mx-auto pb-[80px]">
+          <div class="slick-slider flex  ">
+            <div
+              class="border border-[#FCE1B8] px-[20px] pt-[40px] md:pt-0  mx-auto flex bg-[#FFF9F1] relative my-[50px] cursor-pointer"
+              data-aos-duration="2000" data-aos="zoom-in">
+              <svg class="mt-[54px] ms-[30px] hidden md:block" width="85" height="62" viewBox="0 0 85 62" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21.14 61.44C17.62 61.44 14.54 60.78 11.9 59.46C9.26 57.9933 7.13333 56.0867 5.52 53.74C4.05333 51.3933 2.88 48.6067 2 45.38C1.12 42.1533 0.680001 38.78 0.680001 35.26C0.680001 28.0733 2.51333 21.3267 6.18 15.02C9.99333 8.71333 15.86 3.72666 23.78 0.0599873L25.76 4.01999C21.6533 5.92666 17.9867 8.71333 14.76 12.38C11.68 15.9 9.84667 19.64 9.26 23.6C8.38 26.68 8.30667 29.6867 9.04 32.62C12.2667 29.1 16.5933 27.34 22.02 27.34C27.0067 27.34 31.1133 28.88 34.34 31.96C37.5667 34.8933 39.18 39 39.18 44.28C39.18 49.4133 37.4933 53.5933 34.12 56.82C30.7467 59.9 26.42 61.44 21.14 61.44ZM66.46 61.44C62.94 61.44 59.86 60.78 57.22 59.46C54.58 57.9933 52.4533 56.0867 50.84 53.74C49.3733 51.3933 48.2 48.6067 47.32 45.38C46.44 42.1533 46 38.78 46 35.26C46 28.0733 47.8333 21.3267 51.5 15.02C55.3133 8.71333 61.18 3.72666 69.1 0.0599873L71.08 4.01999C66.9733 5.92666 63.3067 8.71333 60.08 12.38C57 15.9 55.1667 19.64 54.58 23.6C53.7 26.68 53.6267 29.6867 54.36 32.62C57.5867 29.1 61.9133 27.34 67.34 27.34C72.3267 27.34 76.4333 28.88 79.66 31.96C82.8867 34.8933 84.5 39 84.5 44.28C84.5 49.4133 82.8133 53.5933 79.44 56.82C76.0667 59.9 71.74 61.44 66.46 61.44Z"
+                  fill="#603809" />
+              </svg>
+              <p class="text-center max-w-[780px] mx-auto text-[15px] sm:text-[17px] md:text-[20px] ff_playfair">Lorem
+                Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when
+                an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                survived
+                not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged.
+                It was popularised in the 1960s with the release of Letraset..... </p>
+              <h2 class="ff_playfair text-[32px] text-[#603809] text-center font-bold mt-[28px]">Jonny Thomas</h2>
+              <h3 class="ff_playfair text-center pt-[4px] text-[#707070] font-notrmal pb-[100px]">Project Manager</h3>
+              <img class="absolute bottom-[-70px] left-[50%] translate-x-[-50%]" src="./assets/img/png/photo.png"
+                alt="Jonny Thomas">
 
-
-              </div>
-              <div
-                class="border border-[#FCE1B8] px-[20px] pt-[40px] md:pt-0  mx-auto flex bg-[#FFF9F1] relative my-[50px] cursor-pointer">
-                <svg class="mt-[54px] ms-[30px] hidden md:block" width="85" height="62" viewBox="0 0 85 62" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M21.14 61.44C17.62 61.44 14.54 60.78 11.9 59.46C9.26 57.9933 7.13333 56.0867 5.52 53.74C4.05333 51.3933 2.88 48.6067 2 45.38C1.12 42.1533 0.680001 38.78 0.680001 35.26C0.680001 28.0733 2.51333 21.3267 6.18 15.02C9.99333 8.71333 15.86 3.72666 23.78 0.0599873L25.76 4.01999C21.6533 5.92666 17.9867 8.71333 14.76 12.38C11.68 15.9 9.84667 19.64 9.26 23.6C8.38 26.68 8.30667 29.6867 9.04 32.62C12.2667 29.1 16.5933 27.34 22.02 27.34C27.0067 27.34 31.1133 28.88 34.34 31.96C37.5667 34.8933 39.18 39 39.18 44.28C39.18 49.4133 37.4933 53.5933 34.12 56.82C30.7467 59.9 26.42 61.44 21.14 61.44ZM66.46 61.44C62.94 61.44 59.86 60.78 57.22 59.46C54.58 57.9933 52.4533 56.0867 50.84 53.74C49.3733 51.3933 48.2 48.6067 47.32 45.38C46.44 42.1533 46 38.78 46 35.26C46 28.0733 47.8333 21.3267 51.5 15.02C55.3133 8.71333 61.18 3.72666 69.1 0.0599873L71.08 4.01999C66.9733 5.92666 63.3067 8.71333 60.08 12.38C57 15.9 55.1667 19.64 54.58 23.6C53.7 26.68 53.6267 29.6867 54.36 32.62C57.5867 29.1 61.9133 27.34 67.34 27.34C72.3267 27.34 76.4333 28.88 79.66 31.96C82.8867 34.8933 84.5 39 84.5 44.28C84.5 49.4133 82.8133 53.5933 79.44 56.82C76.0667 59.9 71.74 61.44 66.46 61.44Z"
-                    fill="#603809" />
-                </svg>
-                <p class="text-center max-w-[780px] mx-auto text-[15px] sm:text-[17px] md:text-[20px] ff_playfair">Lorem
-                  Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  when
-                  an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                  survived
-                  not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                  unchanged.
-                  It was popularised in the 1960s with the release of Letraset..... </p>
-                <h2 class="ff_playfair text-[32px] text-[#603809] text-center font-bold mt-[28px]">Pardeep</h2>
-                <h3 class="ff_playfair text-center pt-[4px] text-[#707070] font-notrmal pb-[100px]">Project Manager</h3>
-                <img class="absolute bottom-[-70px] left-[50%] translate-x-[-50%]" src="./assets/img/png/photo.png"
-                  alt="Jonny Thomas">
-
-
-              </div>
-              <div
-                class="border border-[#FCE1B8] px-[20px] pt-[40px] md:pt-0  mx-auto flex bg-[#FFF9F1] relative my-[50px] cursor-pointer">
-                <svg class="mt-[54px] ms-[30px] hidden md:block" width="85" height="62" viewBox="0 0 85 62" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M21.14 61.44C17.62 61.44 14.54 60.78 11.9 59.46C9.26 57.9933 7.13333 56.0867 5.52 53.74C4.05333 51.3933 2.88 48.6067 2 45.38C1.12 42.1533 0.680001 38.78 0.680001 35.26C0.680001 28.0733 2.51333 21.3267 6.18 15.02C9.99333 8.71333 15.86 3.72666 23.78 0.0599873L25.76 4.01999C21.6533 5.92666 17.9867 8.71333 14.76 12.38C11.68 15.9 9.84667 19.64 9.26 23.6C8.38 26.68 8.30667 29.6867 9.04 32.62C12.2667 29.1 16.5933 27.34 22.02 27.34C27.0067 27.34 31.1133 28.88 34.34 31.96C37.5667 34.8933 39.18 39 39.18 44.28C39.18 49.4133 37.4933 53.5933 34.12 56.82C30.7467 59.9 26.42 61.44 21.14 61.44ZM66.46 61.44C62.94 61.44 59.86 60.78 57.22 59.46C54.58 57.9933 52.4533 56.0867 50.84 53.74C49.3733 51.3933 48.2 48.6067 47.32 45.38C46.44 42.1533 46 38.78 46 35.26C46 28.0733 47.8333 21.3267 51.5 15.02C55.3133 8.71333 61.18 3.72666 69.1 0.0599873L71.08 4.01999C66.9733 5.92666 63.3067 8.71333 60.08 12.38C57 15.9 55.1667 19.64 54.58 23.6C53.7 26.68 53.6267 29.6867 54.36 32.62C57.5867 29.1 61.9133 27.34 67.34 27.34C72.3267 27.34 76.4333 28.88 79.66 31.96C82.8867 34.8933 84.5 39 84.5 44.28C84.5 49.4133 82.8133 53.5933 79.44 56.82C76.0667 59.9 71.74 61.44 66.46 61.44Z"
-                    fill="#603809" />
-                </svg>
-                <p class="text-center max-w-[780px] mx-auto text-[15px] sm:text-[17px] md:text-[20px]  ">Lorem Ipsum is
-                  simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  when
-                  an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                  survived
-                  not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                  unchanged.
-                  It was popularised in the 1960s with the release of Letraset..... </p>
-                <h2 class="ff_playfair text-[32px] text-[#603809] text-center font-bold mt-[28px]">Sandeep</h2>
-                <h3 class="ff_playfair text-center pt-[4px] text-[#707070] font-notrmal pb-[100px]">Project Manager</h3>
-                <img class="absolute bottom-[-70px] left-[50%] translate-x-[-50%]" src="./assets/img/png/photo.png"
-                  alt="Jonny Thomas">
-
-
-              </div>
 
             </div>
-            <div class="flex items-center justify-center space-x-2 mt-5 relative">
-              <img
-                class="l_arrow w-[60px] md:w-[80px] absolute left-[30%]  top-[10px]  md:left-[-40px]  md:top-[-300px] cursor-pointer"
-                src="./assets/img/png/arroe1.svg" alt="">
-              <img
-                class="r_arrow w-[60px] md:w-[80px] absolute right-[30%] top-[10px]  md:right-[-40px] md:top-[-300px]  cursor-pointer"
-                src="./assets/img/png/arrow2.svg" alt="">
+            <div
+              class="border border-[#FCE1B8] px-[20px] pt-[40px] md:pt-0  mx-auto flex bg-[#FFF9F1] relative my-[50px] cursor-pointer">
+              <svg class="mt-[54px] ms-[30px] hidden md:block" width="85" height="62" viewBox="0 0 85 62" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21.14 61.44C17.62 61.44 14.54 60.78 11.9 59.46C9.26 57.9933 7.13333 56.0867 5.52 53.74C4.05333 51.3933 2.88 48.6067 2 45.38C1.12 42.1533 0.680001 38.78 0.680001 35.26C0.680001 28.0733 2.51333 21.3267 6.18 15.02C9.99333 8.71333 15.86 3.72666 23.78 0.0599873L25.76 4.01999C21.6533 5.92666 17.9867 8.71333 14.76 12.38C11.68 15.9 9.84667 19.64 9.26 23.6C8.38 26.68 8.30667 29.6867 9.04 32.62C12.2667 29.1 16.5933 27.34 22.02 27.34C27.0067 27.34 31.1133 28.88 34.34 31.96C37.5667 34.8933 39.18 39 39.18 44.28C39.18 49.4133 37.4933 53.5933 34.12 56.82C30.7467 59.9 26.42 61.44 21.14 61.44ZM66.46 61.44C62.94 61.44 59.86 60.78 57.22 59.46C54.58 57.9933 52.4533 56.0867 50.84 53.74C49.3733 51.3933 48.2 48.6067 47.32 45.38C46.44 42.1533 46 38.78 46 35.26C46 28.0733 47.8333 21.3267 51.5 15.02C55.3133 8.71333 61.18 3.72666 69.1 0.0599873L71.08 4.01999C66.9733 5.92666 63.3067 8.71333 60.08 12.38C57 15.9 55.1667 19.64 54.58 23.6C53.7 26.68 53.6267 29.6867 54.36 32.62C57.5867 29.1 61.9133 27.34 67.34 27.34C72.3267 27.34 76.4333 28.88 79.66 31.96C82.8867 34.8933 84.5 39 84.5 44.28C84.5 49.4133 82.8133 53.5933 79.44 56.82C76.0667 59.9 71.74 61.44 66.46 61.44Z"
+                  fill="#603809" />
+              </svg>
+              <p class="text-center max-w-[780px] mx-auto text-[15px] sm:text-[17px] md:text-[20px] ff_playfair">Lorem
+                Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when
+                an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                survived
+                not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged.
+                It was popularised in the 1960s with the release of Letraset..... </p>
+              <h2 class="ff_playfair text-[32px] text-[#603809] text-center font-bold mt-[28px]">Pardeep</h2>
+              <h3 class="ff_playfair text-center pt-[4px] text-[#707070] font-notrmal pb-[100px]">Project Manager</h3>
+              <img class="absolute bottom-[-70px] left-[50%] translate-x-[-50%]" src="./assets/img/png/photo.png"
+                alt="Jonny Thomas">
+
+
+            </div>
+            <div
+              class="border border-[#FCE1B8] px-[20px] pt-[40px] md:pt-0  mx-auto flex bg-[#FFF9F1] relative my-[50px] cursor-pointer">
+              <svg class="mt-[54px] ms-[30px] hidden md:block" width="85" height="62" viewBox="0 0 85 62" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21.14 61.44C17.62 61.44 14.54 60.78 11.9 59.46C9.26 57.9933 7.13333 56.0867 5.52 53.74C4.05333 51.3933 2.88 48.6067 2 45.38C1.12 42.1533 0.680001 38.78 0.680001 35.26C0.680001 28.0733 2.51333 21.3267 6.18 15.02C9.99333 8.71333 15.86 3.72666 23.78 0.0599873L25.76 4.01999C21.6533 5.92666 17.9867 8.71333 14.76 12.38C11.68 15.9 9.84667 19.64 9.26 23.6C8.38 26.68 8.30667 29.6867 9.04 32.62C12.2667 29.1 16.5933 27.34 22.02 27.34C27.0067 27.34 31.1133 28.88 34.34 31.96C37.5667 34.8933 39.18 39 39.18 44.28C39.18 49.4133 37.4933 53.5933 34.12 56.82C30.7467 59.9 26.42 61.44 21.14 61.44ZM66.46 61.44C62.94 61.44 59.86 60.78 57.22 59.46C54.58 57.9933 52.4533 56.0867 50.84 53.74C49.3733 51.3933 48.2 48.6067 47.32 45.38C46.44 42.1533 46 38.78 46 35.26C46 28.0733 47.8333 21.3267 51.5 15.02C55.3133 8.71333 61.18 3.72666 69.1 0.0599873L71.08 4.01999C66.9733 5.92666 63.3067 8.71333 60.08 12.38C57 15.9 55.1667 19.64 54.58 23.6C53.7 26.68 53.6267 29.6867 54.36 32.62C57.5867 29.1 61.9133 27.34 67.34 27.34C72.3267 27.34 76.4333 28.88 79.66 31.96C82.8867 34.8933 84.5 39 84.5 44.28C84.5 49.4133 82.8133 53.5933 79.44 56.82C76.0667 59.9 71.74 61.44 66.46 61.44Z"
+                  fill="#603809" />
+              </svg>
+              <p class="text-center max-w-[780px] mx-auto text-[15px] sm:text-[17px] md:text-[20px]  ">Lorem Ipsum is
+                simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when
+                an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                survived
+                not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged.
+                It was popularised in the 1960s with the release of Letraset..... </p>
+              <h2 class="ff_playfair text-[32px] text-[#603809] text-center font-bold mt-[28px]">Sandeep</h2>
+              <h3 class="ff_playfair text-center pt-[4px] text-[#707070] font-notrmal pb-[100px]">Project Manager</h3>
+              <img class="absolute bottom-[-70px] left-[50%] translate-x-[-50%]" src="./assets/img/png/photo.png"
+                alt="Jonny Thomas">
+
+
+            </div>
+
+          </div>
+          <div class="flex items-center justify-center space-x-2 mt-5 relative">
+            <img
+              class="l_arrow w-[60px] md:w-[80px] absolute left-[30%]  top-[10px]  md:left-[-40px]  md:top-[-300px] cursor-pointer"
+              src="./assets/img/png/arroe1.svg" alt="">
+            <img
+              class="r_arrow w-[60px] md:w-[80px] absolute right-[30%] top-[10px]  md:right-[-40px] md:top-[-300px]  cursor-pointer"
+              src="./assets/img/png/arrow2.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg_image_3 bg-cover bg-no-repeat bg-center relative">
+      <divdata-aos-duration="2000" data-aos="zoom-in">
+        <img class="absolute left-0 bottom-[-25px] w-[20%] md:bottom-[-50px]  xl:bottom-[-100px] md:w-[20%]"
+          src="./assets/img/png/leftcup.png" alt="both side cup">
+        <img class="absolute right-0 bottom-[-25px] w-[20%]  md:bottom-[-50px]  xl:bottom-[-100px] md:w-[20%]"
+          src="./assets/img/png/rightcup.png" alt="both side cup">
+        <div class="container mx-auto px-4">
+          <p
+            class="text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-white ff_playfair font-bold not-italic pt-[45px] sm:pt-[60px] lg:pt-[80px] text-center ">
+            Subscribe to get the Latest News</p>
+          <p
+            class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-white ot-italic pt-[10px] leading-[34px] text-center  pb-[26px] ">
+            Don’t miss out on our latest news, updates, tips and special offers</p>
+          <div class="flex justify-center lg:flex-row items-center flex-col pb-[45px] sm:pb-[60px] lg:pb-[80px]">
+            <input type="email" placeholder="Enter your mail"
+              class="py-[16px] px-[24px] w-full sm:w-[60%] lg:w-[40%] ff_playfair font-normal leading-[34px] text-[15px] sm:text-[17px] md:text-[20px] rounded-[4px] border-none outline-none">
+            <div class="text-center">
+              <a class="ff_playfair text-[17px] sm:text-[20px] md:text-[23px] font-bold text-[#603809] bg-[#F9C06A] inline-block md:py-[16px] py-[13px] px-[20px]  md:px-[24px] rounded-[4px] ms-[-5px] mt-[10px] lg:mt-0 transition-all duration-300 ease-in-out btn_1"
+                href="#">Subscribe</a>
             </div>
           </div>
         </div>
-      </section>
-      <section class="bg_image_3 bg-cover bg-no-repeat bg-center relative">
-        <divdata-aos-duration="2000" data-aos="zoom-in">
-          <img class="absolute left-0 bottom-[-25px] w-[20%] md:bottom-[-50px]  xl:bottom-[-100px] md:w-[20%]"
-            src="./assets/img/png/leftcup.png" alt="both side cup">
-          <img class="absolute right-0 bottom-[-25px] w-[20%]  md:bottom-[-50px]  xl:bottom-[-100px] md:w-[20%]"
-            src="./assets/img/png/rightcup.png" alt="both side cup">
-          <div class="container mx-auto px-4">
-            <p
-              class="text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] xl:text-[54px] text-white ff_playfair font-bold not-italic pt-[45px] sm:pt-[60px] lg:pt-[80px] text-center ">
-              Subscribe to get the Latest News</p>
-            <p
-              class="ff_playfair font-normal text-[15px] sm:text-[17px] md:text-[20px] text-white ot-italic pt-[10px] leading-[34px] text-center  pb-[26px] ">
-              Don’t miss out on our latest news, updates, tips and special offers</p>
-            <div class="flex justify-center lg:flex-row items-center flex-col pb-[45px] sm:pb-[60px] lg:pb-[80px]">
-              <input type="email" placeholder="Enter your mail"
-                class="py-[16px] px-[24px] w-full sm:w-[60%] lg:w-[40%] ff_playfair font-normal leading-[34px] text-[15px] sm:text-[17px] md:text-[20px] rounded-[4px] border-none outline-none">
-              <div class="text-center">
-                <a class="ff_playfair text-[17px] sm:text-[20px] md:text-[23px] font-bold text-[#603809] bg-[#F9C06A] inline-block md:py-[16px] py-[13px] px-[20px]  md:px-[24px] rounded-[4px] ms-[-5px] mt-[10px] lg:mt-0 transition-all duration-300 ease-in-out btn_1"
-                  href="#">Subscribe</a>
-              </div>
-            </div>
-          </div>
   </div>
   </section>
-  </main>
-  <footer class="footer_img bg-cover bg-no-repeat bg-center overflow-hidden" >
+
+  <footer class="footer_img bg-cover bg-no-repeat bg-center overflow-hidden">
     <div class="container mx-auto px-[20px] md:px-[40px]">
       <div class="flex items-start  xl:flex-row flex-col justify-between">
         <div class="flex flex-col py-[40px] sm:pt-[50px] lg:pt-[80px] xl:pt-[160px] xl:pb-[80px]"
@@ -536,7 +543,7 @@
       </div>
     </div>
   </footer>
-</div>
+  </div>
   <!-- jquery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
     integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
